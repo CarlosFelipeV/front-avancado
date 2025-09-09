@@ -3,6 +3,7 @@ import Adicao from './components/Adicao'
 import Subtracao from './components/Subtracao'
 import Multiplicacao from './components/Multiplicacao'
 import Divisao from './components/Divisao'
+import PrecisoEstudar from './components/PrecisoEstudar'
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
       <Subtracao num1={4} num2={2}/>
       <Multiplicacao num1={2} num2={2}/>
       <Divisao num1={8} num2={2}/>
+
+      <PrecisoEstudar nomeDaTecnologia="React"/>
     </div>
   )
 }
